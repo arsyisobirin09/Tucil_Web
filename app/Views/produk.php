@@ -33,10 +33,32 @@
     </div>
 
 </nav>
-<div class="col text-center">
-    <h1>Berbagai macam produk</h1>
-    <hr>
-    <img src="assets/poto2.jpg" alt=" " class="rounded">
-    <img src="assets/poto3.jpg" alt=" " class="rounded">
-    <img src="assets/poto4.jpg" alt=" " class="rounded">
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h1>Berbagai macam produk</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 30rem;">
+                <img class="card-img-top" src="assets/foto2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Samsoeng A00</h5>
+                    <p class="card-text">Hp terbaru keluaran dari merk ternama Samsoeng A00 dengan tenologi yang canggih</p>
+                    <a href="#" class="btn btn-primary">Pesan</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="assets/foto3.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Pipo Bukan Vivo</h5>
+                <p class="card-text">Hp terbaru dengan layar Amoled dan juga fingerprint di layar lohh</p>
+                <a href="#" class="btn btn-primary">Pesan</a>
+            </div>
+        </div>
+    </div>
 </div>
