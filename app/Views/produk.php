@@ -1,10 +1,4 @@
-<header>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-
-</header>
+<?= $this->include('template/header'); ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">RANG-RANG CELL</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +17,7 @@
                 <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Home">Login</a>
+                <a class="nav-link" href="/Home">Logout</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -48,7 +42,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Samsoeng A00</h5>
                     <p class="card-text">Hp terbaru keluaran dari merk ternama Samsoeng A00 dengan tenologi yang canggih</p>
-                    <a href="#" class="btn btn-primary">Pesan</a>
+                    <a href="#" class="btn btn-dark">Pesan</a>
+                    <a href="#" class="btn btn-dark">Detail</a>
                 </div>
             </div>
         </div>
@@ -57,8 +52,10 @@
             <div class="card-body">
                 <h5 class="card-title">Pipo Bukan Vivo</h5>
                 <p class="card-text">Hp terbaru dengan layar Amoled dan juga fingerprint di layar lohh</p>
-                <a href="#" class="btn btn-primary">Pesan</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+                <a href="#" class="btn btn-dark">Detail</a>
             </div>
         </div>
     </div>
 </div>
+<?= $this->include('template/footer'); ?>
